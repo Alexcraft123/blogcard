@@ -1,0 +1,87 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree;
+    word-wrap: break-word;
+}
+
+.main-target {
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: 1px solid #000000;
+    padding: 20px 20px 20px 20px;
+    box-shadow: #000000 10px 10px 0px;
+}
+
+.learning-class {
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 15px 5px 15px;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.main-target p {
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+    line-height: 1.5em;
+}
+
+#description {
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+}
+
+.main-target h1 {
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.img-portada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.img-portada {
+    border-radius: 10px;
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+}
+
+.autor img { 
+    width: 40px;
+    height: 40px;
+}
+
+.autor p {
+    margin-left: 10px;
+    font-weight: 800;
+}
+
+.attribution {
+    margin-top: 20px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 20px 20px 20px 20px;
+    font-weight: 800;
+    font-size: 16px;
+    margin-top: 0;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    box-shadow: #000000 10px 10px 0px;
+}
+
+.attribution p {
+    font-size: 16px;
+}
